@@ -228,4 +228,25 @@ main {
   .navbar__list-item {
     border-bottom: none;
   }
+}
+
+.showcase {
+  padding-top: 14.5rem;
+}
+.showcase__container {
+  text-align: center;
+}
+.showcase__image {
+  display: inline-block;
+  transform: translateY(-3rem);
+}
+@media (min-width: 48em) {
+  .showcase__image {
+    transform: translateY(-5rem);
+  }
+}
+@media (min-width: 64em) {
+  .showcase__image {
+    transform: translateY(-8rem);
+  }
 }/*# sourceMappingURL=styles.css.map */
