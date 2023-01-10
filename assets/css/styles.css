@@ -423,4 +423,60 @@ main {
   .blog__post:first-of-type {
     margin-bottom: 0;
   }
+}
+
+.footer {
+  background-color: var(--dark-clr);
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+}
+.footer__group {
+  text-align: center;
+}
+.footer__title {
+  margin-bottom: 3rem;
+}
+.footer__separator {
+  display: block;
+  height: 1px;
+  background-color: var(--light-clr);
+  margin-top: 10rem;
+  margin-bottom: 8rem;
+}
+.footer__logo {
+  display: inline-block;
+}
+.footer__description {
+  margin-block: 3rem;
+}
+.footer__list {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.footer__list-link {
+  color: var(--light-clr-2);
+  font-size: 1.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.25s;
+}
+.footer__list-link:is(:hover, :focus) {
+  background-color: var(--light-clr-2);
+  color: var(--dark-clr);
+}
+.footer__copyright {
+  display: inline-block;
+  margin-top: 5rem;
+}
+@media (min-width: 48em) {
+  .footer__description {
+    max-width: 50rem;
+    margin-inline: auto;
+  }
 }/*# sourceMappingURL=styles.css.map */
