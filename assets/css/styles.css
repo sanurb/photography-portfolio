@@ -371,15 +371,24 @@ main {
 }
 .about__images-image {
   position: relative;
+  transition: 300ms ease-in-out transform;
 }
 .about__images-image--top {
   grid-column: 4/-1;
   grid-row: 1/span 4;
 }
+.about__images-image--top:hover {
+  transform: rotate(2deg);
+  box-shadow: 1rem 2rem 3rem rgba(0, 0, 0, 0.15);
+}
 .about__images-image--bottom {
   grid-column: 1/7;
   grid-row: 3/span 5;
   z-index: 5;
+}
+.about__images-image--bottom:hover {
+  transform: rotate(-2deg);
+  box-shadow: 1rem 2rem 3rem rgba(0, 0, 0, 0.15);
 }
 @media (min-width: 48em) {
   .about__container {

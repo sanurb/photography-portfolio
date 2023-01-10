@@ -31,16 +31,27 @@
 
     &__images-image {
         position: relative;
+        transition: 300ms ease-in-out transform;
 
         &--top {
             grid-column: 4 / -1;
             grid-row: 1/span 4;
+
+            &:hover{
+                transform: rotate(2deg);
+                box-shadow: 1rem 2rem 3rem rgb(0 0 0 / 15%);
+            }
         }
 
         &--bottom {
             grid-column: 1 / 7;
             grid-row: 3/span 5;
             z-index: 5;
+
+            &:hover{
+                transform: rotate(-2deg);
+                box-shadow: 1rem 2rem 3rem rgb(0 0 0 / 15%);
+            }
         }
     }
 
