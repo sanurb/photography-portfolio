@@ -249,4 +249,30 @@ main {
   .showcase__image {
     transform: translateY(-8rem);
   }
+}
+
+.portfolio {
+  padding-top: 7.4rem;
+  padding-bottom: 12rem;
+}
+.portfolio__metadata {
+  padding-bottom: 4rem;
+  text-align: left;
+}
+
+.swiper {
+  width: 100%;
+}
+.swiper .swiper-slide {
+  width: 30rem;
+  height: 30rem;
+}
+.swiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.swiper .swiper-pagination-bullet {
+  background-color: var(--light-clr-2);
 }/*# sourceMappingURL=styles.css.map */
