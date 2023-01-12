@@ -4,7 +4,7 @@
 This work is to practice css skills, it was inspired by this [Dribbble](https://dribbble.com/shots/17515559-Photography-Portfolio-Website-Cris-Paul)
 
 ## Demo
-Here is a working live demo: [https://github.com/sanurb/photography-portfolio](https://github.com/sanurb/photography-portfolio)
+Here is a working live demo: [https://sanurb.github.io/photography-portfolio](https://sanurb.github.io/photography-portfolio)
 
 ## Built with
 
